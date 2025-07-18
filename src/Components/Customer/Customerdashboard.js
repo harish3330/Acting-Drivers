@@ -13,7 +13,6 @@ function CustomerDashboard() {
 
   const handleBook = (driver) => {
     alert(`You have selected ${driver.name} (${driver.location})`);
-    // You can navigate to payment page with selected driver
     // navigate('/customer/payment', { state: { driver } });
   };
 
